@@ -1,19 +1,20 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
 
     int savings;
-    cin>>savings;
+    cin >> savings;
 
-    if (savings<5000)
+    if (savings < 5000)
     {
-        cout<<"Neha ";
+        cout << "Neha ";
     }
     else
     {
-        cout<<"Pooja";
+        cout << "Pooja";
     }
-    cout<<endl;
+    cout << endl;
 
     return 0;
 }

@@ -18,6 +18,6 @@ int main()
     {
         cout << "Friends";
     }
-    cout<<endl;
+    cout << endl;
     return 0;
 }
