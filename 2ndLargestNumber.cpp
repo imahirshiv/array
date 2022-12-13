@@ -10,6 +10,7 @@ int main(){
     {
         cout<<"The members present in array are-:"<<array[i]<<" "<<endl;
     }
+    
 
     
 

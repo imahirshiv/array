@@ -1,20 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
 
     int inpt;
-    cin>>inpt;
-    if (inpt%2==0)
+    cin >> inpt;
+    if (inpt % 2 == 0)
     {
-        cout<<"Given number is even";
+        cout << "Given number is even";
+        
     }
     else
     {
-        cout<<"Given number is odd";
+        cout << "Given number is odd";
     }
-    cout<<endl;
-    
-
+    cout << endl;
     return 0;
-
 }
