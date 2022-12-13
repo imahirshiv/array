@@ -1,25 +1,36 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
 
-    int a,b,c;
-    cin>>a>>b>>c;
+    int a, b, c;
+    cin >> a >> b >> c;
 
-    if (a>b)
+    if (a > b)
     {
-        cout<<"A is greater than B";
-
-    }
-    else if (b>c)
-    {
-        cout<<"B is greater than C";
+        if (a > c)
+        {
+            cout << "a is grater than all";
+        }
+        else
+        {
+            cout << "c is greater than all";
+        }
     }
     else
     {
-        cout<<"C is Grater than All";
+        if (b>c)
+        {
+            cout<<"b is greater than all";
+        }
+        else
+        {
+            cout<<"c is greater than all";
+        }
     }
     
-    
+       
+    cout<<endl;
 
     return 0;
 }
