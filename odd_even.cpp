@@ -10,6 +10,7 @@ int main()
         cout << "Given number is even";
         
     }
+    
     else
     {
         cout << "Given number is odd";
